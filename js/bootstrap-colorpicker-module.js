@@ -1,4 +1,11 @@
-angular.module('colorpicker.module', [])
+/* commonjs package manager support (eg componentjs) */
+
+if (typeof module !== "undefined" && typeof exports !== "undefined" && module.exports === exports) {
+    module.exports = 'angular-bootstrap-colorpicker';
+}
+
+(function(){
+angular.module('angular-bootstrap-colorpicker', [])
     .factory('Helper', function () {
       'use strict';
       return {
@@ -576,3 +583,4 @@ angular.module('colorpicker.module', [])
         }
       };
     }]);
+})();
