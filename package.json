@@ -2,7 +2,7 @@
   "name": "angular-bootstrap-colorpicker",
   "version": "3.0.25",
   "description": "Native AngularJS colorpicker directive",
-  "main": "js/bootstrap-colorpicker-module.js",
+  "main": "js/angular-bootstrap-colorpicker.js",
   "directories": {
     "test": "test"
   },
